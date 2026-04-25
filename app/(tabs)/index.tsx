@@ -2,14 +2,14 @@ import { useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import Vapi from "@vapi-ai/react-native";
 
-const vapi = new Vapi("9903c5e9-cd86-4cc3-9c5c-32394f789ce5");
+const vapi = new Vapi("");
 
 export default function HomeScreen() {
   const [status, setStatus] = useState("idle");
 
   const startCall = async () => {
     setStatus("calling");
-    await vapi.start("8549cead-c1d9-428d-b19e-e78c040a8dae");
+    await vapi.start("");
   };
 
   const stopCall = () => {
