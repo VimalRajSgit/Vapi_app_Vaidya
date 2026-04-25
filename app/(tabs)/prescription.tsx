@@ -15,8 +15,8 @@ import * as ImagePicker from "expo-image-picker";
 import * as MediaLibrary from "expo-media-library";
 import * as Notifications from "expo-notifications";
 
-const PRESCRIPTO_KEY = "api_key";
-const GROQ_KEY = "api-key";
+const PRESCRIPTO_KEY = "";
+const GROQ_KEY = "";
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
